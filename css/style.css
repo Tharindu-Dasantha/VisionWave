@@ -245,3 +245,53 @@ textarea {
   }
 }
 
+
+
+/* Adding the styles to the page */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Nav Bar */
+nav {
+  padding: 13px 20px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+i.fa-phone {
+  font-size: 30px;
+  color: #222222;
+  border: white 1px solid;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+
+.contact_call {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.navbar-appointment{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
